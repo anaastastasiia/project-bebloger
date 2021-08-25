@@ -1,9 +1,12 @@
-import React from "react";
-import Container from "@material-ui/core/Container";
-// import ProductsList from "../../components/Products/ProductsList";
+import React from 'react'
+import FirstBlock from '../../components/firstBlock/firstBlock'
 
 const Main = () => {
-  return <Container maxWidth="lg">{/* <ProductsList /> */}</Container>;
-};
+    return (
+        <>
+            <FirstBlock />
+        </>
+    )
+}
 
-export default Main;
+export default Main

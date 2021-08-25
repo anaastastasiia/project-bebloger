@@ -1,4 +1,26 @@
-.menu{
+.col-md-8 {
+    flex: 0 0 66.66666%;
+    max-width: 66.66666%;
+}
+.row-menu{
+    position: fixed;
+    width: 101%;
+    background-color: rgba(43,48,42, 0.8);
+}
+.menu a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0 30px;
+    color: #fff;
+    text-align: center;
+    justify-content: space-between;
+}
+.menu li {
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+.menu {
     display: flex;
     justify-content: flex-end;
     height: 80px;
@@ -6,4 +28,8 @@
     margin-top: 0;
     margin-bottom: -16px;
     font-family: "Montserrat", Arial, Tahoma, sans-serif;
+}
+
+.menu a:hover {
+    color: #ac8a62;
 }

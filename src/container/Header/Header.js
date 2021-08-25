@@ -1,52 +1,52 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles'
-import AppBar from '@material-ui/core/AppBar'
-import Toolbar from '@material-ui/core/Toolbar'
-import Typography from '@material-ui/core/Typography'
-// import IconButton from '@material-ui/core/IconButton'
-// import MenuIcon from '@material-ui/icons/Menu'
-import Container from '@material-ui/core/Container'
-import Menu from '../../components/Menu/Menu'
 import LogoImg from '../images'
-// import logoImg from '../images'
-
-const useStyles = makeStyles({
-    root: {
-        flexGrow: 1,
-    },
-    menuButton: {
-        marginRight: 5,
-    },
-    title: {
-        flexGrow: 1,
-    },
-})
+import Menu from '../../components/Menu/Menu'
+import '../../reset.css'
+import './HeaderLogo.css'
 
 const Header = () => {
-    const classes = useStyles()
-
     return (
         <>
-            <AppBar position="static">
-                <Container maxWidth="lg">
-                    <Toolbar>
-                        {/* <IconButton
-                            edge="start"
-                            className={classes.menuButton}
-                            color="inherit"
-                            aria-label="menu"
-                        >
-                            <MenuIcon />
-                        </IconButton> */}
-                        <Typography variant="div" className={classes.logo}>
-                            <LogoImg />
-                        </Typography>
-                        <Menu />
-                    </Toolbar>
-                </Container>
-            </AppBar>
+            <div className="header">
+                <div className="container">
+                    <div className="row row-menu">
+                        <div className="col-md-4">
+                            <a className="logo" href="">
+                                <img
+                                    className="logo-img"
+                                    src="https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-logo-retina.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div className="col-md-8">
+                            <div className="main-menu">
+                                <ul className="menu">
+                                    <Menu />
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
-
+//     return (
+//         <>
+//             <AppBar>
+//                 <Container fixed>
+//                     <Toolbar className={classes.rowMenu}>
+//                         <Typography variant="div" className={classes.logo}>
+//                             <LogoImg />
+//                         </Typography>
+//                         <Typography variant="ul" className={classes.menu}>
+//                             <Menu />
+//                         </Typography>
+//                     </Toolbar>
+//                 </Container>
+//             </AppBar>
+//         </>
+//     )
+// }
 export default Header

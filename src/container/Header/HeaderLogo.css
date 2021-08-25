@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+.header {
+    background-color: #2b302a;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    height: 80px;
+}
+.logo-img {
+    width: 142px;
+    display: flex;
+    margin: 20px;
+}
+.col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.col-md-8 {
+    flex: 0 0 66.66666%;
+    max-width: 66.66666%;
+}
