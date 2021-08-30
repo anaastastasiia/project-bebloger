@@ -1,0 +1,48 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-adventures {
+    background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-home-grren-bg.png);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blocks-title {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 68.81481%;
+}
+
+.small-title a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.small-title img {
+    margin-right: 15px;
+    margin-top: -5px;
+}
+
+.big-title {
+    width: 60%;
+    margin-top: 2%;
+}
+
+.big-title h3 {
+    font-size: 38px;
+    line-height: 47px;
+    font-weight: 700;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+.small-title {
+    display: flex;
+}

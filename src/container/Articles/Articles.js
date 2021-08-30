@@ -1,5 +1,6 @@
 import React from 'react'
-
+import './Article.css'
+import Adventures from '../../components/FirstArticles/Adventures'
 const Articles = () => {
     return (
         <>
@@ -20,6 +21,7 @@ const Articles = () => {
                             </h3>
                         </div>
                     </div>
+                    <Adventures />
                 </div>
             </div>
         </>

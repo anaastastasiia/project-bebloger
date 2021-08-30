@@ -1,11 +1,10 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 .row-adventures {
     background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-home-grren-bg.png);
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
 }

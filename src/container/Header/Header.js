@@ -1,5 +1,4 @@
 import React from 'react'
-import LogoImg from '../images'
 import Menu from '../../components/Menu/Menu'
 import '../../reset.css'
 import './HeaderLogo.css'
@@ -32,21 +31,5 @@ const Header = () => {
         </>
     )
 }
-//     return (
-//         <>
-//             <AppBar>
-//                 <Container fixed>
-//                     <Toolbar className={classes.rowMenu}>
-//                         <Typography variant="div" className={classes.logo}>
-//                             <LogoImg />
-//                         </Typography>
-//                         <Typography variant="ul" className={classes.menu}>
-//                             <Menu />
-//                         </Typography>
-//                     </Toolbar>
-//                 </Container>
-//             </AppBar>
-//         </>
-//     )
-// }
+
 export default Header
