@@ -6,21 +6,19 @@ import './AdvStyles.css'
 const Adventures = () => {
     return (
         <>
-            <div className="row row-adventures">
-                <div className="adventures-articles">
-                    {AdventuresArray.map((adventure) => (
-                        <AdventuresArticle
-                            key={adventure.id}
-                            image={adventure.image}
-                            categories={adventure.categories}
-                            description={adventure.description}
-                            text={adventure.text}
-                            photo={adventure.photo}
-                            name={adventure.name}
-                            date={adventure.date}
-                        />
-                    ))}
-                </div>
+            <div className="adventures-articles">
+                {AdventuresArray.map((adventure) => (
+                    <AdventuresArticle
+                        key={adventure.id}
+                        image={adventure.image}
+                        categories={adventure.categories}
+                        description={adventure.description}
+                        text={adventure.text}
+                        photo={adventure.photo}
+                        name={adventure.name}
+                        date={adventure.date}
+                    />
+                ))}
             </div>
         </>
     )

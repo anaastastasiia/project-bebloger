@@ -12,7 +12,7 @@ const AdventureArticle = (props) => {
                         <p>{props.text}</p>
 
                         <div className="articles-author">
-                            <img src={props.photo} />
+                            <img id="authors-ph" src={props.photo} />
                             <a href="">{props.name}</a>
                             <span>{props.date}</span>
                         </div>

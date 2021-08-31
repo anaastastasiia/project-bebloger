@@ -10,9 +10,9 @@
     justify-content: space-between;
 }
 
-.adventures-articles img {
+/* .adventures-articles img {
     width: 461.34px;
-}
+} */
 
 .adv-art-content {
     background-color: #505b4e;
@@ -88,7 +88,4 @@
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 15px;
     width: 100%;
-}
-.adv-art-first img {
-    width: 461.34px;
 }
