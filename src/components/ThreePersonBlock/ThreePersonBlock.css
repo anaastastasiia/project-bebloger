@@ -1,0 +1,54 @@
+.three-person-ph-block {
+    padding-top: 300px;
+    background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger-home-3-gys.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 754px;
+    display: flex;
+    justify-content: center;
+}
+
+.quotes {
+    padding: 90px 4% 25px;
+    background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger-quotes-bg2.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 460px;
+    display: flex;
+    width: 33.33334%;
+    flex-direction: column;
+    margin-left: 490px;
+}
+
+.quotes h2 {
+    color: #504840;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 700;
+    /* width: 50%; */
+    /* height: 200px; */
+}
+
+.quotes-author-with-img {
+    display: flex;
+    margin-top: 80px;
+
+}
+
+.quotes-author a {
+    text-decoration: none;
+    color: #504840;
+}
+
+#quotes-name {
+    font-weight: 700;
+}
+
+.quotes-author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    line-height: 25px;
+}

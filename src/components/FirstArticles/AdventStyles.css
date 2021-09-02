@@ -8,12 +8,30 @@
     display: flex;
     width: 68.81481%;
     justify-content: space-between;
+    margin-right: -140px;
+}
+.image-zoom img{
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+.image-zoom:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
-/* .adventures-articles img {
-    width: 461.34px;
-} */
-
+.adventures-articles img {
+    width: 100%;
+}
+.like-btn{
+    position: relative;
+    top: 212px;
+    left: 90%;
+    color: white;
+}
 .adv-art-content {
     background-color: #505b4e;
     width: 70%;
@@ -84,7 +102,7 @@
     font-size: 15px;
     width: 100%;
 }
-.adv-art-first:hover img {
+/* .adv-art-first:hover img {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -108,4 +126,4 @@
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-}
+} */

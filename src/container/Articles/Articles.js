@@ -1,6 +1,7 @@
 import React from 'react'
 import './Article.css'
 import Adventures from '../../components/FirstArticles/Adventures'
+import ThreePersonBlock from '../../components/ThreePersonBlock/ThreePersonBlock'
 const Articles = () => {
     return (
         <>
@@ -22,7 +23,12 @@ const Articles = () => {
                         </div>
                     </div>
                     <Adventures />
-                    
+                    <div class="more-btn">
+                        <div class="more-text">
+                            <a href="">Discover more</a>
+                        </div>
+                    </div>
+                    <ThreePersonBlock />
                 </div>
             </div>
         </>

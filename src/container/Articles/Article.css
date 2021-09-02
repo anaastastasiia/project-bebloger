@@ -46,3 +46,25 @@
 .small-title {
     display: flex;
 }
+.more-text a:hover {
+    color: rgba(240, 238, 235, 0.62);
+}
+.more-btn {
+    display: flex;
+    width: 100%;
+}
+
+.more-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.more-text a {
+    text-decoration: underline #ac8a62;
+    color: #fff;
+    padding: 60px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
