@@ -4,10 +4,10 @@ import './firstBlock.css'
 const FirstBlock = () => {
     return (
         <>
-            <section class="first-block">
-                <div class="the-biggest-image">
-                    <div class="row row-the-biggest-image">
-                        <div class="the-biggest-image-content read">
+            <section className="first-block">
+                <div className="the-biggest-image">
+                    <div className="row row-the-biggest-image">
+                        <div className="the-biggest-image-content read">
                             <p id="hot-title">
                                 Hot air baloon ride at the Pointy Peak
                                 Mountains.
@@ -18,26 +18,26 @@ const FirstBlock = () => {
                                 officiis maiores necessitatibus natus illum.
                             </p>
                         </div>
-                        <div class="read-article-btn">
+                        <div className="read-article-btn">
                             <a href="">READ THE ARTICLE</a>
                         </div>
                     </div>
                 </div>
-                <div class="social-medies">
-                    <div class="insta-block">
-                        <div class="insta-img">
+                <div className="social-medies">
+                    <div className="insta-block">
+                        <div className="insta-img">
                             <img
-                                class="social-img"
+                                className="social-img"
                                 src="https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-insta.png"
                                 alt=""
                             />
                         </div>
                         <a href="">Instagram</a>
                     </div>
-                    <div class="twitter-block">
-                        <div class="twitter-img">
+                    <div className="twitter-block">
+                        <div className="twitter-img">
                             <img
-                                class="social-img"
+                                className="social-img"
                                 src="https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-twitter.png"
                                 alt=""
                             />
