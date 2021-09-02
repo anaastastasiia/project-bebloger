@@ -1,0 +1,44 @@
+footer{
+    background-color: #262e26;
+    color: #d1d2d1;
+}
+.row-last{
+    width: 100%;
+    height: 400px;
+}
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.last-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+.last-text p{
+    padding-top: 45px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    color: #939993;
+}
+.developer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.developer-inform{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color:#939993;
+}
