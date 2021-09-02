@@ -3,6 +3,7 @@ import './Article.css'
 import Adventures from '../../components/FirstArticles/Adventures'
 import ThreePersonBlock from '../../components/ThreePersonBlock/ThreePersonBlock'
 import Places from '../../components/Places/Places'
+import Guides from '../../components/Guides/Guides'
 
 const Articles = () => {
     return (
@@ -35,6 +36,9 @@ const Articles = () => {
             </div>
             <div class="places-block">
                 <Places />
+            </div>
+            <div class="guides-block">
+                <Guides />
             </div>
         </>
     )

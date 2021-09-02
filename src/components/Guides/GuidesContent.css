@@ -1,0 +1,87 @@
+.guid-art-content{
+    background-color:#fff;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    width: 300px;
+    margin-top: -2px;
+}
+.guid-art-first img{
+    width: 300px;
+}
+.guid-art-second img{
+    width: 300px;
+}
+.guid-art-third img{
+    width: 300px;
+}
+.guid-art-first h2{
+    color: #504840;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.guid-art-content a:hover{
+    color: rgba(0,0,0,.8);
+}
+.guid-art-second h2{
+    color: #504840;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.guid-art-third h2{
+    color: #504840;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.title-categ-guides{
+    background-color: rgba(0,0,0,.05);
+    color: rgba(0,0,0,.6);
+    padding: 3px 12px;
+    border-radius: 20px;
+    width: 72px;
+    text-decoration: none;
+    height: 32px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    
+}
+.guid-art-author {
+    border-top-color: rgba(255, 14, 14, 0.1);
+    background: none;
+    margin-top: 20px;
+    padding: 15px 0 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.guid-art-author a {
+    text-decoration: none;
+    color: #ac8a62;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.guid-art-author span {
+    color: #DEDEDE;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}

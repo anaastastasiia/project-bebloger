@@ -1,0 +1,50 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-guides {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e2e0dc;
+}
+
+.small-title-guides a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #504840;
+}
+
+.small-title-guides {
+    display: flex;
+}
+
+.small-title-guides img {
+    margin-right: 15px;
+    margin-top: -3px;
+    width: 26px;
+    height: 26px;
+}
+
+.big-title-guides {
+
+    width: 60%;
+    margin-top: 2%;
+
+}
+
+.big-title-guides h3 {
+    font-size: 38px;
+    line-height: 47px;
+    font-weight: 700;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    color: #504840;
+}
+.guides-articles{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
