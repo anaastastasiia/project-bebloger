@@ -26,19 +26,36 @@ const Articles = () => {
                         </div>
                     </div>
                     <Adventures />
-                    <div class="more-btn">
-                        <div class="more-text">
+                    <div className="more-btn">
+                        <div className="more-text">
                             <a href="">Discover more</a>
                         </div>
                     </div>
                     <ThreePersonBlock />
                 </div>
             </div>
-            <div class="places-block">
+            <div className="places-block">
                 <Places />
             </div>
-            <div class="guides-block">
+            <div className="guides-block">
                 <Guides />
+            </div>
+            <div className="join-us-block">
+                <div className="row row-join-us">
+                    <div className="join-us">
+                        <div className="join-us-content">
+                            <img
+                                src="https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-location-icon2.png"
+                                alt=""
+                            ></img>
+                            <h3>
+                                Lorem ipsum dolor sit amet tetur adipis icing
+                                elit
+                            </h3>
+                            <a href="">Join us today</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )

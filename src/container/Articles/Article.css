@@ -108,3 +108,42 @@
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     color: #504840;
 }
+.row-join-us{
+    background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-home-village.jpg);
+    height: 775px;
+}
+.join-us-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.join-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+.join-us-content h3{
+    color: #504840;
+    font-size: 38px;
+    line-height: 47px;
+    font-weight: 700;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    width: 38%;
+    text-align: center;
+    padding-top: 60px;
+}
+.join-us-content a{
+    background-color: #ac8a62;
+    color: #ffffff;
+    border: none;
+    padding: 20px 30px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.join-us-content a:hover {
+    background-color: #343d39;
+    color: #ac8a62;
+}
