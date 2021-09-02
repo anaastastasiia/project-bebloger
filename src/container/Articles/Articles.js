@@ -2,6 +2,8 @@ import React from 'react'
 import './Article.css'
 import Adventures from '../../components/FirstArticles/Adventures'
 import ThreePersonBlock from '../../components/ThreePersonBlock/ThreePersonBlock'
+import Places from '../../components/Places/Places'
+
 const Articles = () => {
     return (
         <>
@@ -30,6 +32,9 @@ const Articles = () => {
                     </div>
                     <ThreePersonBlock />
                 </div>
+            </div>
+            <div class="places-block">
+                <Places />
             </div>
         </>
     )

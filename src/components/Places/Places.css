@@ -1,0 +1,16 @@
+.places-articles{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+.row-places {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #efeeea;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
