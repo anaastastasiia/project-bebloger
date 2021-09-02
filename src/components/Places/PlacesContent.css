@@ -1,10 +1,10 @@
 
 .pl-art-content{
-    background-color:#fff;
-    height: 270px;
+    background-color: #fff;
+    height: 108%;
     display: flex;
     flex-direction: column;
-    padding: 25px 30px;
+    padding: 50px 30px;
     width: 300px;
     margin-top: -5px;
 }
@@ -85,4 +85,17 @@
     width: 100%;
     text-align: center;
     margin-top: 10px;
+}
+.image-zoom img{
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    width: 100%;
+}
+.image-zoom:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
