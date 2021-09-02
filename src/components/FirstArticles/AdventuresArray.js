@@ -1,7 +1,7 @@
 const AdventuresArray = [
     {
         id: 1,
-        image: '/images/Adv1.jpg',
+        image: '/images/adv1.jpg',
         categories: 'Adventures',
         description: 'Donec tempor pur',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquum.',
@@ -11,7 +11,7 @@ const AdventuresArray = [
     },
     {
         id: 2,
-        image: '/images/Adv2.jpg',
+        image: '/images/adv2.jpg',
         categories: 'Adventures',
         description: 'Fusce nec orcio',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquum.',

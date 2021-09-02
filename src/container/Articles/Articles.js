@@ -22,6 +22,7 @@ const Articles = () => {
                         </div>
                     </div>
                     <Adventures />
+                    
                 </div>
             </div>
         </>

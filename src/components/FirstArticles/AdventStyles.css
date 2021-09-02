@@ -21,9 +21,6 @@
     flex-direction: column;
     padding: 25px 35px 25px 35px;
     margin-top: -3px;
-    /* width: 85%;
-    top: -55px;
-    padding: 25px 35px; */
 }
 
 .titlee-categories {
@@ -55,8 +52,6 @@
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 30px;
-    /* height: 90px;
-    width: 255px; */
 }
 
 .articles-author {
@@ -88,4 +83,29 @@
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 15px;
     width: 100%;
+}
+.adv-art-first:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+.adv-art-first img {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.adv-art-two:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+.adv-art-two img {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
