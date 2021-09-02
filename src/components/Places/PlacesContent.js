@@ -8,7 +8,7 @@ const PostsContent = (props) => {
                 <div className="pl-art-block">
                     <div className="pl-art-content">
                         <div className="image-zoom">
-                            <img src={props.image} />
+                            <img src={props.image} alt="" />
 
                             <a className="title-categ-pleces" href="">
                                 {props.categories}
@@ -16,7 +16,7 @@ const PostsContent = (props) => {
                             <h2>{props.description}</h2>
                         </div>
                         <div className="pl-art-author">
-                            <img id="authors-ph" src={props.photo} />
+                            <img id="authors-ph" src={props.photo} alt="" />
                             <a href="">{props.name}</a>
                             <span>{props.date}</span>
                         </div>

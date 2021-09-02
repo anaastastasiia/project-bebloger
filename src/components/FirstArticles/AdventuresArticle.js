@@ -9,7 +9,7 @@ const AdventureArticle = (props) => {
                     <div className="adv-art-content">
                         <div className="image-zoom">
                             <FavoriteBorderIcon className="like-btn" />
-                            <img src={props.image} />
+                            <img src={props.image} alt="" />
                             <a className="titlee-categories" href="">
                                 {props.categories}
                             </a>
@@ -18,7 +18,7 @@ const AdventureArticle = (props) => {
                         </div>
 
                         <div className="articles-author">
-                            <img id="authors-ph" src={props.photo} />
+                            <img id="authors-ph" src={props.photo} alt="" />
                             <a href="">{props.name}</a>
                             <span>{props.date}</span>
                         </div>

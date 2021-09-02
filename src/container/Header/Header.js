@@ -10,7 +10,10 @@ const Header = () => {
                 <div className="container">
                     <div className="row row-menu">
                         <div className="col-md-4">
-                            <a className="logo" href="">
+                            <a
+                                className="logo"
+                                href="https://themes.muffingroup.com/be/blogger3/"
+                            >
                                 <img
                                     className="logo-img"
                                     src="https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-logo-retina.png"

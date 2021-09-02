@@ -16,7 +16,9 @@ const Articles = () => {
                                 src="https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-adventure-icon.png"
                                 alt=""
                             />
-                            <a href="">Adventures</a>
+                            <a href="https://themes.muffingroup.com/be/blogger3/">
+                                Adventures
+                            </a>
                         </div>
                         <div className="big-title">
                             <h3>
@@ -28,7 +30,9 @@ const Articles = () => {
                     <Adventures />
                     <div className="more-btn">
                         <div className="more-text">
-                            <a href="">Discover more</a>
+                            <a href="https://themes.muffingroup.com/be/blogger3/">
+                                Discover more
+                            </a>
                         </div>
                     </div>
                     <ThreePersonBlock />
@@ -52,7 +56,9 @@ const Articles = () => {
                                 Lorem ipsum dolor sit amet tetur adipis icing
                                 elit
                             </h3>
-                            <a href="">Join us today</a>
+                            <a href="https://themes.muffingroup.com/be/blogger3/">
+                                Join us today
+                            </a>
                         </div>
                     </div>
                 </div>
