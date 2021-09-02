@@ -6,7 +6,7 @@
     flex-direction: column;
     padding: 25px 30px;
     width: 300px;
-    margin-top: -2px;
+    margin-top: -5px;
 }
 .pl-art-content a:hover{
     color: rgba(0,0,0,.8);
