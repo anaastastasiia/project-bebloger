@@ -14,7 +14,7 @@ const Guides = () => {
                                 src="https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger-icon-location.png"
                                 alt=""
                             />
-                            <a href="">Guides</a>
+                            <button>Guides</button>
                         </div>
                         <div className="big-title-guides">
                             <h3>

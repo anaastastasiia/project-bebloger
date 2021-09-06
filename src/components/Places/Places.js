@@ -14,7 +14,7 @@ const Posts = () => {
                                 src="https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger-icon-location.png"
                                 alt=""
                             />
-                            <a href="">Places</a>
+                            <button>Places</button>
                         </div>
                         <div className="big-title-places">
                             <h3>

@@ -9,8 +9,9 @@
     background-color: #e2e0dc;
 }
 
-.small-title-guides a {
-    text-decoration: none;
+.small-title-guides button {
+    border:none;
+    background: none;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;

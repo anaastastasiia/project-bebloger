@@ -8,7 +8,7 @@
     width: 300px;
     margin-top: -5px;
 }
-.pl-art-content a:hover{
+.pl-art-content button:hover{
     color: rgba(0,0,0,.8);
 }
 .pl-art-first img{
@@ -46,6 +46,7 @@
 }
 .title-categ-pleces{
     background-color: rgba(0,0,0,.05);
+    border: none;
     color: rgba(0,0,0,.6);
     padding: 3px 12px;
     border-radius: 20px;
@@ -56,7 +57,6 @@
     line-height: 25px;
     font-size: 15px;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    
 }
 .pl-art-author {
     border-top-color: rgba(255, 14, 14, 0.1);
@@ -70,12 +70,14 @@
 }
 
 
-.pl-art-author a {
+.pl-art-author button {
     text-decoration: none;
     color: #ac8a62;
+    background: none;
     margin-top: 10px;
     width: 100%;
     text-align: center;
+    border: none;
 }
 
 .pl-art-author span {

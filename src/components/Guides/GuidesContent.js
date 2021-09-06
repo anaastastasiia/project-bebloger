@@ -9,14 +9,14 @@ const GuidesContent = (props) => {
                     <div className="guid-art-content">
                         <div className="image-zoom">
                             <img src={props.image} alt="" />
-                            <a className="title-categ-guides" href="">
+                            <button className="title-categ-guides">
                                 {props.categories}
-                            </a>
+                            </button>
                             <h2>{props.description}</h2>
                         </div>
                         <div className="guid-art-author">
                             <img id="authors-ph" src={props.photo} alt="" />
-                            <a href="">{props.name}</a>
+                            <button>{props.name}</button>
                             <span>{props.date}</span>
                         </div>
                     </div>

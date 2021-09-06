@@ -17,10 +17,8 @@ const ThreePersonBlock = () => {
                             alt=""
                         />
                         <div className="quotes-author">
-                            <a id="quotes-name" href="">
-                                Jenny Penny
-                            </a>
-                            <a href="">CEO @ Pandolum</a>
+                            <button id="quotes-name">Jenny Penny</button>
+                            <button>CEO @ Pandolum</button>
                         </div>
                     </div>
                 </div>

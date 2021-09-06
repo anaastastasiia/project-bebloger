@@ -21,7 +21,7 @@ const AboutPageContent = () => {
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit, sed do eiusmod tempor incididunt ut labor
                     </p>
-                    <a href="">Discover more</a>
+                    <button>Discover more</button>
                 </div>
                 <div className="img-content">
                     <img

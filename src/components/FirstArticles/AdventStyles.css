@@ -1,7 +1,7 @@
-.adv-art-content a:hover {
+.adv-art-content button:hover {
     color: rgba(255,255,255,.8);
 }
-.more-text a:hover {
+.more-text button:hover {
     color: rgba(240, 238, 235, 0.62);
 }
 .adventures-articles {
@@ -43,8 +43,8 @@
 
 .titlee-categories {
     background-color: rgba(255, 255, 255, .1);
+    border: none;
     color: rgba(255, 255, 255, .6);
-    padding: 3px 12px;
     border-radius: 20px;
     width: 110px;
     text-decoration: none;
@@ -89,11 +89,17 @@
     border-radius: 50%;
 }
 
-.articles-author a {
-    text-decoration: none;
+.articles-author button {
+    border: none;
     color: #ac8a62;
     margin-top: 5px;
     width: 100%;
+    background: none;
+    padding: 0;
+    display: flex;
+    font-size: 15px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+
 }
 
 .articles-author span {

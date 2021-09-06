@@ -24,7 +24,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.guid-art-content a:hover{
+.guid-art-content button:hover{
     color: rgba(0,0,0,.8);
 }
 .guid-art-second h2{
@@ -45,6 +45,7 @@
 }
 .title-categ-guides{
     background-color: rgba(0,0,0,.05);
+    border: none;
     color: rgba(0,0,0,.6);
     padding: 3px 12px;
     border-radius: 20px;
@@ -69,12 +70,14 @@
 }
 
 
-.guid-art-author a {
+.guid-art-author button {
     text-decoration: none;
     color: #ac8a62;
+    background: none;
     margin-top: 10px;
     width: 100%;
     text-align: center;
+    border: none;
 }
 
 .guid-art-author span {

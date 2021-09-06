@@ -19,7 +19,7 @@ const FirstBlock = () => {
                             </p>
                         </div>
                         <div className="read-article-btn">
-                            <a href="">READ THE ARTICLE</a>
+                            <button>READ THE ARTICLE</button>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const FirstBlock = () => {
                                 alt=""
                             />
                         </div>
-                        <a href="">Instagram</a>
+                        <button>Instagram</button>
                     </div>
                     <div className="twitter-block">
                         <div className="twitter-img">
@@ -42,7 +42,7 @@ const FirstBlock = () => {
                                 alt=""
                             />
                         </div>
-                        <a href="">Twitter</a>
+                        <button>Twitter</button>
                     </div>
                 </div>
             </section>

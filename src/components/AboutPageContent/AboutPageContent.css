@@ -59,15 +59,18 @@
     margin-top: 30px;
 
 }
-.text-content a{
+.text-content button{
+    border:none;
     border-bottom: 1px solid #ac8a62;
+    padding: 0;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     margin-top: 30px;
+    background:none;
 }
-.text-content a:hover {
+.text-content button:hover {
     color: rgb(214, 213, 213);
 
 }

@@ -10,16 +10,16 @@ const AdventureArticle = (props) => {
                         <div className="image-zoom">
                             <FavoriteBorderIcon className="like-btn" />
                             <img src={props.image} alt="" />
-                            <a className="titlee-categories" href="">
+                            <button className="titlee-categories">
                                 {props.categories}
-                            </a>
+                            </button>
                             <h2>{props.description}</h2>
                             <p>{props.text}</p>
                         </div>
 
                         <div className="articles-author">
                             <img id="authors-ph" src={props.photo} alt="" />
-                            <a href="">{props.name}</a>
+                            <button>{props.name}</button>
                             <span>{props.date}</span>
                         </div>
                     </div>

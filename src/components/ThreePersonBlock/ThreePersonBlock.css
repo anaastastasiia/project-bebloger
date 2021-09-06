@@ -36,13 +36,16 @@
 
 }
 
-.quotes-author a {
-    text-decoration: none;
+.quotes-author button {
     color: #504840;
+    background: none;
+    border: none;
 }
 
 #quotes-name {
     font-weight: 700;
+    background: none;
+    border: none;
 }
 
 .quotes-author {
