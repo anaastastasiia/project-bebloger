@@ -1,0 +1,83 @@
+.title {
+    padding-top: 175px;
+    padding-bottom: 150px;
+    background-color: #455241;
+    background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger-about-guy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h1{
+    color:#fff;
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 700;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+    width: 50%;
+    text-align: center;
+}
+.title p{
+    color:rgb(226, 222, 222);
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.text-content img {
+    height: 21px;
+    width: 85px;
+}
+.article {
+    display: flex;
+    align-items: center;
+    background-color: rgb(72, 82, 70);
+}
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding: 100px 8%;
+   
+}
+.text-content h3{
+    font-size: 38px;
+    line-height: 47px;
+    font-weight: 700;
+    color:#fff;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+}
+.text-content p{
+    font-size: 15px;
+    line-height: 26px;
+    color: #d2d0d0;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+
+}
+.text-content a{
+    border-bottom: 1px solid #ac8a62;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+}
+.text-content a:hover {
+    color: rgb(214, 213, 213);
+
+}
+.img-content  {
+    width:759.6px;
+    height: 460px;
+    
+}
+.img-content img{
+    height: 102%;
+    width: 100%;
+    margin-top: -5px;
+}
