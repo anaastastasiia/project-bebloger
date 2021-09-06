@@ -1,31 +1,43 @@
 import React from 'react'
 import './MenuStyles.css'
 import '../../reset.css'
-
+import { Link } from 'react-router-dom'
 const Menu = () => {
     return (
         <>
             <div className="main-menu">
-                <ul className="menu">
-                    <li>
-                        <a href=""> Home</a>
-                    </li>
-                    <li>
-                        <a href=""> About</a>
-                    </li>
-                    <li>
-                        <a href=""> Adventures</a>
-                    </li>
-                    <li>
-                        <a href=""> Places</a>
-                    </li>
-                    <li>
-                        <a href=""> Guides</a>
-                    </li>
-                    <li>
-                        <a href=""> Join us</a>
-                    </li>
-                </ul>
+                <div className="menu">
+                    <button>
+                        <Link to="/" className="link">
+                            Home
+                        </Link>
+                    </button>
+                    <button>
+                        <Link to="/about" className="link">
+                            About
+                        </Link>
+                    </button>
+                    <button>
+                        <Link to="/adventures" className="link">
+                            Adventures
+                        </Link>
+                    </button>
+                    <button>
+                        <Link to="/places" className="link">
+                            Places
+                        </Link>
+                    </button>
+                    <button>
+                        <Link to="/guides" className="link">
+                            Guides
+                        </Link>
+                    </button>
+                    <button>
+                        <Link to="/likes" className="link">
+                            Likes
+                        </Link>
+                    </button>
+                </div>
             </div>
         </>
     )
