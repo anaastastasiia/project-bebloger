@@ -11,6 +11,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .title h1{
     color:#fff;
     font-size: 50px;
@@ -83,4 +84,28 @@
     height: 102%;
     width: 100%;
     margin-top: -5px;
+}
+.title-team h1{
+    color: #504840;
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 700;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+.title-team{
+margin-top: 120px;
+margin-bottom: 50px;
+}
+.row-team {
+    background-color: #e2e0dc;
+}
+.team-members{
+    display: flex;
+    justify-content: center;
+}
+.team-block{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
