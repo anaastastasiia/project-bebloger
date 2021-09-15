@@ -6,6 +6,8 @@ const TeamArray = [
         profession: 'Software Engineer',
         text: 'Vitae adipiscing turpis. Aenean ligula nibh, molest ie id viverra a, quivalente dapibus at dolor.',
         colial: '',
+        facebook: '/images/facebook.png',
+        twiter: '/images/twiter.png',
     },
     {
         id: 2,
@@ -14,6 +16,8 @@ const TeamArray = [
         profession: 'CEO',
         text: 'Vitae adipiscing turpis. Aenean ligula nibh, molest ie id viverra a, quivalente dapibus at dolor.',
         colial: '',
+        facebook: '/images/facebook.png',
+        twiter: '/images/twiter.png',
     },
     {
         id: 3,
@@ -22,6 +26,8 @@ const TeamArray = [
         profession: 'Designer',
         text: 'Vitae adipiscing turpis. Aenean ligula nibh, molest ie id viverra a, quivalente dapibus at dolor.',
         colial: '',
+        facebook: '/images/facebook.png',
+        twiter: '/images/twiter.png',
     },
 ]
 export default TeamArray

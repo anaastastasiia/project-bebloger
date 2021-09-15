@@ -1,4 +1,3 @@
-import { PinDropSharp } from '@material-ui/icons'
 import React from 'react'
 import './AboutPageContent.css'
 import './teamAbout'
@@ -53,6 +52,8 @@ const AboutPageContent = () => {
                                         profession={team.profession}
                                         text={team.text}
                                         cocial={team.cocial}
+                                        facebook={team.facebook}
+                                        twiter={team.twiter}
                                     />
                                 ))}
                             </div>

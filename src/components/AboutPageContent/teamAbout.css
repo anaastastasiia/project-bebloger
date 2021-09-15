@@ -16,8 +16,30 @@ font-size: 32px;
     line-height: 40px;
     font-weight: 600;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
 }
 .team-content p{
     color: #7b7979;
     margin: 0 0 15px;
+    text-align: center;
+    line-height: 25px;
+}
+#prof {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ac8a62;
+}
+.social-media-about {
+    display: flex;
+}
+.social-media-about button {
+    margin: 2px;
+    border: none;
+    background: none;
+}
+#social-img {
+    height: 50px;
+    width: 50px;
+}
+.social-media-about button:hover {
+    background-color:  #ac8a62;
 }
