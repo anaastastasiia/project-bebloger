@@ -1,0 +1,179 @@
+.join-title{
+    background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-join-main-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.join-title h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 700;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+.join-title h2{
+    color: #ac8a63;
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 500;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    margin: 20px 0 20px 0;
+}
+.join-title p{
+    color: #fff;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 34px;
+}
+.join-title-content{
+    padding-left: 200px;
+    width: 50%;
+}
+.feedback-questionnaire{
+    display: flex;
+    background-color: #443e3b;
+    height: 520px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.feedback-questionnaire-content{
+    display: flex;
+    width: 70%;
+}
+.feedback-questionnaire-content h3{
+    color: #fff;
+    font-size: 38px;
+    line-height: 47px;
+    font-weight: 700;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    margin: 30px 0 30px 0;
+}
+.feedback-questionnaire-content p{
+    color: #fff;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    
+}
+.text-join {
+    width: 30%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.questionnaire {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+}
+.questionnaire input {
+    color: #ffffff;
+    background-color: rgba(106,94,85,1);
+    border:none;
+    margin:10px;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+}
+.questionnaire textarea{
+    color: #ffffff;
+    background-color: rgba(106,94,85,1);
+    border:none;
+    margin:10px;
+    padding: 10px;
+    width: 100%;
+}
+.email-subject{
+    display: flex;
+    margin-right: -20px;
+}
+#message {
+    height: 100px;
+}
+.questionnaire-background{
+    background-color: #5c5149;
+    width: 50%;
+    height: 400px;
+}
+.questionnaire button {
+    background-color: #ac8a63;
+    border: none;
+    font-size: 20px;
+    height: 35px;
+    color: #fff;
+    margin-left: 10px;
+    width: 100%;
+}
+.questionnaire button:hover{
+    color: black;
+}
+.info-block {
+    background-color: #443e3b;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.info-block-content {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+
+}
+.info-block-content h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 700;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    margin: 15px 0 40px 0;
+}
+.info-left-img{
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+}
+.info-left-img img{
+    margin: 20px 0 20px 0;
+}
+.info-content {
+    display: flex;
+}
+.info-left-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.info-left-text strong{
+    font-weight: 700;
+    color: #ac8a63;
+    font-size: 18px;
+    margin-left: 25px;
+    width: 70%;
+}
+.info-right p{
+    color: #fff;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size:15px ;
+    width: 50%;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.info-right-phone, .info-right-email{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #ac8a63;
+}
+.info-right-phone strong{
+    padding-left: 10px;
+}
+.info-right-email strong{
+    padding-left: 10px;
+}

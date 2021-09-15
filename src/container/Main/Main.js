@@ -8,6 +8,7 @@ import AdventuresPage from '../../pages/Adventure/AdventuresPage'
 import PlacesPage from '../../pages/Places/PlacesPage'
 import GuidesPage from '../../pages/Guides/GuidesPage'
 import LikesPage from '../../pages/Likes/LikesPage'
+import JoinUs from '../../pages/JoinUs/JoinUs'
 
 const Main = () => {
     return (
@@ -20,6 +21,7 @@ const Main = () => {
             <Route path="/places" component={PlacesPage} />
             <Route path="/guides" component={GuidesPage} />
             <Route path="/likes" component={LikesPage} />
+            <Route path="/joinus" component={JoinUs} />
         </>
     )
 }

@@ -37,6 +37,11 @@ const Menu = () => {
                             Likes
                         </Link>
                     </button>
+                    <button>
+                        <Link to="/joinus" className="link">
+                            Join us
+                        </Link>
+                    </button>
                 </div>
             </div>
         </>
