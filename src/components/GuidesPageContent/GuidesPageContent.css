@@ -1,0 +1,89 @@
+
+.big-title-guid h1{
+    color: #e2e0dc;
+    font-size: 60px;
+    line-height: 520px;
+    font-weight: 700;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.big-title-guid{
+    background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-blog-subheader.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 520px;
+}
+.guid-art-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #e2e0dc;
+    align-items: center;
+}
+.block-with-img-zoom{
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d0bf;
+    padding:30px;
+}
+.guid-art-content-page {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.articles-author-page{
+    background-color: #d9d0bf;
+    padding: 20px;
+    border-top: 1px solid #281d0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.block-with-img-zoom button {
+    border: none;
+    border-radius: 20px;
+    width: 20%;
+    font-size: 24px;
+    background-color: rgb(238 238 238 / 37%);
+    color: rgb(100 72 72 / 60%);
+    line-height: 33px;
+    margin: 20px 0 20px 0px;
+}
+.block-with-img-zoom button:hover {
+    color: rgb(44 29 29 / 60%);
+}
+.categ-like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like-button{
+    margin-right: 40px;
+    color: rgb(100 72 72 / 60%);
+}
+.block-with-img-zoom h2{
+    color: #fff;
+    font-size: 26px;
+}
+.block-with-img-zoom p{
+    color: black;
+    width: 65%;
+    margin: 10px 0 0;
+}
+#authors-ph-page{
+    border-radius: 50%;
+}
+.articles-author-page button{
+    border:none;
+    background: none;
+    color: #281d0b;
+}
+.articles-author-page button:hover{
+    border-bottom: 1px solid #281d0b;
+}
+.articles-author-page span{
+    color: #6b591f;
+}
