@@ -109,3 +109,100 @@ margin-bottom: 50px;
     flex-wrap: wrap;
     justify-content: center;
 }
+.big-article-about{
+    display: flex;
+    background-color: #e2e0dc;
+    width: 100%;
+    justify-content: center;
+    padding-top:100px;
+}
+.big-article-right h3{
+    color: #ac8a63;
+    font-size: 38px;
+    line-height: 47px;
+    font-weight: 700;
+        margin-bottom: 25px;
+}
+.big-article-right p{
+    color: #504840;
+}
+.big-article-right img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 40px;
+}
+#big-img-big-art{
+    height: 400px;
+    width: 400px;
+}
+
+.big-article-right{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 90px;
+}
+.big-article-left{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+}
+.quotes-author-with-img-about {
+    display: flex;
+    margin-top: 30px;
+}
+#quotes-name {
+    font-weight: 700;
+    background: none;
+    border: none;
+}
+#small-img-big-art {
+    height: 45px;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row-join-us{
+    background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-home-village.jpg);
+    height: 775px;
+}
+.join-us-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.join-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+.join-us-content h3{
+    color: #504840;
+    font-size: 38px;
+    line-height: 47px;
+    font-weight: 700;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    width: 38%;
+    text-align: center;
+    padding-top: 60px;
+}
+.join-us-content a{
+    background-color: #ac8a62;
+    color: #ffffff;
+    border: none;
+    padding: 20px 30px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.join-us-content a:hover {
+    background-color: #343d39;
+    color: #ac8a62;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
