@@ -1,5 +1,7 @@
 import React from 'react'
 import './PlacesContent.css'
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
+
 
 const PostsContent = (props) => {
     return (
@@ -8,6 +10,8 @@ const PostsContent = (props) => {
                 <div className="pl-art-block">
                     <div className="pl-art-content">
                         <div className="image-zoom">
+                        <FavoriteBorderIcon className="like-btn" />
+
                             <img src={props.image} alt="" />
 
                             <button className="title-categ-pleces">

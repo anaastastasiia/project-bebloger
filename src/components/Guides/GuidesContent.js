@@ -1,5 +1,7 @@
 import React from 'react'
 import './GuidesContent.css'
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
+
 
 const GuidesContent = (props) => {
     return (
@@ -8,6 +10,8 @@ const GuidesContent = (props) => {
                 <div className="guid-art-block">
                     <div className="guid-art-content">
                         <div className="image-zoom">
+                        <FavoriteBorderIcon className="like-btn" />
+
                             <img src={props.image} alt="" />
                             <button className="title-categ-guides">
                                 {props.categories}
