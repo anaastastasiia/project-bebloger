@@ -10,6 +10,7 @@
 }
 .pl-art-content button:hover{
     color: rgba(0,0,0,.8);
+    cursor: pointer;
 }
 .pl-art-first img{
     width: 300px;
@@ -100,6 +101,7 @@
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .like-btn{

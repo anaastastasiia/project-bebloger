@@ -14,11 +14,17 @@
 
 .the-biggest-image-content {
     background-color: rgb(72, 82, 70);
-    align-items: flex-end;
+    /* align-items: flex-end; */
     justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
     /* padding: 25px; */
+    /*background-color: rgb(72, 82, 70);
+    /* align-items: flex-end; */
+    /* justify-content: flex-start; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* padding: 25px;*/
 }
 
 .row-the-biggest-image {
@@ -62,11 +68,11 @@
 
 .read-article-btn button {
     width: 296px;
-    transform: matrix(0, -1, 1, 0, 0, 0);
-    display: flex;
-    text-decoration: none;
-    color: black;
-    background: none;
+    /* transform: matrix(0, -1, 1, 0, 0, 0); */
+    /* display: flex; */
+    /* text-decoration: none; */
+    /* color: black; */
+    /* background: none; */
     border: none;
     background-color: rgb(172, 138, 98);
     text-align: center;
@@ -74,10 +80,23 @@
     line-height: 3;
     font-weight: bolder;
     padding: 5px 32px;
-    justify-content: flex-end;
-    margin-left: 517px;
-    margin-top: -285px;
+     justify-content: flex-end;
+    /* margin-left: 517px;
+    margin-top: -285px; */
+    margin-left: 404px;
+    color: rgb(72 82 70);
 }
+.read-article-btn button:hover {
+    color: black;
+    cursor: pointer;
+}
+.read-article-btn {
+display: flex;
+}
+/* .the-biggest-image-content {
+    display: flex;
+    flex-wrap: nowrap;
+} */
 
 .insta-block {
     display: flex;

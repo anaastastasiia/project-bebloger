@@ -54,6 +54,7 @@
 }
 .block-with-img-zoom button:hover {
     color: rgb(44 29 29 / 60%);
+    cursor: pointer;
 }
 .categ-like{
     display: flex;
@@ -83,6 +84,7 @@
 }
 .articles-author-page button:hover{
     border-bottom: 1px solid #281d0b;
+    cursor: pointer;
 }
 .articles-author-page span{
     color: #6b591f;

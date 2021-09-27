@@ -8,6 +8,7 @@ const FirstBlock = () => {
                 <div className="the-biggest-image">
                     <div className="row row-the-biggest-image">
                         <div className="the-biggest-image-content read">
+                            <div>
                             <p id="hot-title">
                                 Hot air baloon ride at the Pointy Peak
                                 Mountains.
@@ -17,10 +18,15 @@ const FirstBlock = () => {
                                 adipisicing elit. Et ullam, repellendus sed
                                 officiis maiores necessitatibus natus illum.
                             </p>
+                            </div>
+                            
+                            <div className="read-article-btn">
+                                <button>READ THE ARTICLE</button>
+                            </div>
                         </div>
-                        <div className="read-article-btn">
+                        {/* <div className="read-article-btn">
                             <button>READ THE ARTICLE</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="social-medies">

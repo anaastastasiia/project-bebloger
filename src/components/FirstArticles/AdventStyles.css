@@ -1,8 +1,10 @@
 .adv-art-content button:hover {
     color: rgba(255,255,255,.8);
+    cursor: pointer;
 }
 .more-text button:hover {
     color: rgba(240, 238, 235, 0.62);
+    cursor: pointer;
 }
 .adventures-articles {
     display: flex;
@@ -21,6 +23,7 @@
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .adventures-articles img {
@@ -31,6 +34,7 @@
     top: 212px;
     left: 90%;
     color: white;
+    cursor: pointer;
 }
 .adv-art-content {
     background-color: #505b4e;

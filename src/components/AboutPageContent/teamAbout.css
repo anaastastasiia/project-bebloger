@@ -42,4 +42,5 @@ font-size: 32px;
 }
 .social-media-about button:hover {
     background-color:  #ac8a62;
+    cursor: pointer;
 }

@@ -111,6 +111,7 @@
 }
 .questionnaire button:hover{
     color: black;
+    cursor: pointer;
 }
 .info-block {
     background-color: #443e3b;

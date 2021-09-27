@@ -39,8 +39,9 @@
 
 .menu button:hover {
     color: #ac8a62;
+    cursor: pointer;
 }
 .link:hover {
     color: #ac8a62;
-
+    cursor: pointer;
 }

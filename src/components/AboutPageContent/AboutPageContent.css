@@ -73,7 +73,7 @@
 }
 .text-content button:hover {
     color: rgb(214, 213, 213);
-
+    cursor: pointer;
 }
 .img-content  {
     width:759.6px;
@@ -201,6 +201,7 @@ margin-bottom: 50px;
 .join-us-content a:hover {
     background-color: #343d39;
     color: #ac8a62;
+    cursor: pointer;
 }
 .row {
     display: flex;
