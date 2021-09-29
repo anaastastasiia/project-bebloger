@@ -3,7 +3,7 @@ import GuidesArray from './GuidesArray'
 import GuidesContent from './GuidesContent'
 import './Guides.css'
 
-const Guides = () => {
+const Guides = ({changeLike,likeButtonState}) => {
     return (
         <>
             <div className="guides-block">
@@ -24,15 +24,19 @@ const Guides = () => {
                         </div>
                     </div>
                     <div className="guides-articles">
-                        {GuidesArray.map((post) => (
+                        {GuidesArray.map(({id,image,categories,description,photo,name,date}) => (
                             <GuidesContent
-                                key={post.id}
-                                image={post.image}
-                                categories={post.categories}
-                                description={post.description}
-                                photo={post.photo}
-                                name={post.name}
-                                date={post.date}
+                    key={id}
+
+                                id={id}
+                                image={image}
+                                categories={categories}
+                                description={description}
+                                photo={photo}
+                                name={name}
+                                date={date}
+                                changeLike={changeLike}
+                                isLiked={likeButtonState[id]}
                             />
                         ))}
                     </div>

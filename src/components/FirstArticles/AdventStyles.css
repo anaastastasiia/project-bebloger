@@ -29,12 +29,14 @@
 .adventures-articles img {
     width: 100%;
 }
-.like-btn{
+.like-btn-adv{
     position: relative;
-    top: 212px;
+    top: 214px;
     left: 90%;
-    color: white;
+    color: #ac8a62;
     cursor: pointer;
+    background: none;
+    border:none;
 }
 .adv-art-content {
     background-color: #505b4e;

@@ -5,7 +5,7 @@ import ThreePersonBlock from '../../components/ThreePersonBlock/ThreePersonBlock
 import Places from '../../components/Places/Places'
 import Guides from '../../components/Guides/Guides'
 
-const Articles = () => {
+const Articles = ({changeLike, likeButtonState}) => {
     return (
         <>
             <div className="adventures-block places-block guides-block">
@@ -27,7 +27,7 @@ const Articles = () => {
                             </h3>
                         </div>
                     </div>
-                    <Adventures />
+                    <Adventures changeLike={changeLike} likeButtonState={likeButtonState}/>
                     <div className="more-btn">
                         <div className="more-text">
                             <a href="https://themes.muffingroup.com/be/blogger3/">
@@ -39,10 +39,10 @@ const Articles = () => {
                 </div>
             </div>
             <div className="places-block">
-                <Places />
+                <Places changeLike={changeLike} likeButtonState={likeButtonState}/>
             </div>
             <div className="guides-block">
-                <Guides />
+                <Guides changeLike={changeLike} likeButtonState={likeButtonState}/>
             </div>
             <div className="join-us-block">
                 <div className="row row-join-us">

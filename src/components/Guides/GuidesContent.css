@@ -108,5 +108,10 @@
 .like-btn{
     position: relative;
     top: 183px;
-    color: black;
+    color: #ac8a62;
+    background: none;
+    border:none;
+}
+.like-btn button:hover{
+    color: #ac8a62;
 }

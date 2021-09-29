@@ -1,30 +1,37 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './GuidesContent.css'
+// import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
+import FavoriteIcon from '@material-ui/icons/Favorite'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
-
-
-const GuidesContent = (props) => {
-    const [likes,setLikes] = useState(0)
+// import { connect } from 'react-redux'
+// import changeLike from '../../container/App/'
+const GuidesContent = ({id,image,categories,description,photo,name,date,isLiked = false,changeLike
+}) => {
+    // const [likes,setLikes] = useState(0)
     // console.log (likes)
-    
+    // console.log(isLiked)
     return (
         <>
             <div className="guid-art-first guid-art-third guid-art-second">
                 <div className="guid-art-block">
                     <div className="guid-art-content">
                         <div className="image-zoom">
-                        <FavoriteBorderIcon className="like-btn" onClick={()=>setLikes(likes+1)}/>
-                         
-                            <img src={props.image} alt="" />
+                       
+                        <button className="like-btn" onClick={() => changeLike(id) } >
+                        {isLiked ? <FavoriteIcon /> : <FavoriteBorderIcon />}
+                        
+                    </button>
+
+                            <img src={image} alt="" />
                             <button className="title-categ-guides">
-                                {props.categories}
+                                {categories}
                             </button>
-                            <h2>{props.description}</h2>
+                            <h2>{description}</h2>
                         </div>
                         <div className="guid-art-author">
-                            <img id="authors-ph" src={props.photo} alt="" />
-                            <button>{props.name}</button>
-                            <span>{props.date}</span>
+                            <img id="authors-ph" src={photo} alt="" />
+                            <button>{name}</button>
+                            <span>{date}</span>
                         </div>
                     </div>
                 </div>
@@ -32,4 +39,17 @@ const GuidesContent = (props) => {
         </>
     )
 }
+
+
+
+// const mapStateToProps = (state, { id }) => ({
+//     isLiked: state[id],
+// })
+
+// const mapDispatchToProps = (dispatch) => ({
+//     addLike: (id) => dispatch({ type: 'LIKE', id }),
+//     removeLike: (id) => dispatch({ type: 'DISLIKE', id }),
+// })
+
+
 export default GuidesContent

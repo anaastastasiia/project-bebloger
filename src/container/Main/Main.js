@@ -10,11 +10,13 @@ import GuidesPage from '../../pages/Guides/GuidesPage'
 import LikesPage from '../../pages/Likes/LikesPage'
 import JoinUs from '../../pages/JoinUs/JoinUs'
 
-const Main = () => {
+const Main = ({changeLike, likeButtonState,}) => {
     return (
         <>
             <Route path="/" exact render={() => <FirstBlock />} />
-            <Route path="/" exact render={() => <Articles />} />
+            <Route path="/" exact render={() => (
+            <Articles
+             changeLike={changeLike} likeButtonState={likeButtonState} />)} />
             <Route path="/" exact render={() => <Footer />} />
             <Route path="/about" component={AboutPage} />
             <Route path="/adventures" component={AdventuresPage} />

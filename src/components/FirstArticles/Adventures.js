@@ -3,20 +3,23 @@ import AdventuresArray from './AdventuresArray'
 import AdventuresArticle from './AdventuresArticle'
 import './AdvStyles.css'
 
-const Adventures = () => {
+const Adventures = ({changeLike,likeButtonState}) => {
     return (
         <>
             <div className="adventures-articles">
-                {AdventuresArray.map((adventure) => (
+                {AdventuresArray.map(({id,image,categories,description,text,photo,name,date}) => (
                     <AdventuresArticle
-                        key={adventure.id}
-                        image={adventure.image}
-                        categories={adventure.categories}
-                        description={adventure.description}
-                        text={adventure.text}
-                        photo={adventure.photo}
-                        name={adventure.name}
-                        date={adventure.date}
+                    key={id}
+                        id={id}
+                        image={image}
+                        categories={categories}
+                        description={description}
+                        text={text}
+                        photo={photo}
+                        name={name}
+                        date={date}
+                        changeLike={changeLike}
+                        isLiked={likeButtonState[id]}
                     />
                 ))}
             </div>

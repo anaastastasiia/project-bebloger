@@ -3,7 +3,7 @@ import PostsArray from './PlacesArray'
 import PostsContent from './PlacesContent'
 import './Places.css'
 
-const Posts = () => {
+const Posts = ({changeLike,likeButtonState}) => {
     return (
         <>
             <div className="places-block">
@@ -24,15 +24,18 @@ const Posts = () => {
                         </div>
                     </div>
                     <div className="places-articles">
-                        {PostsArray.map((post) => (
+                        {PostsArray.map(({id,image,categories,description,photo,name,date}) => (
                             <PostsContent
-                                key={post.id}
-                                image={post.image}
-                                categories={post.categories}
-                                description={post.description}
-                                photo={post.photo}
-                                name={post.name}
-                                date={post.date}
+                                key={id}
+                                id={id}
+                                image={image}
+                                categories={categories}
+                                description={description}
+                                photo={photo}
+                                name={name}
+                                date={date}
+                                changeLike={changeLike}
+                                isLiked={likeButtonState[id]}
                             />
                         ))}
                     </div>
