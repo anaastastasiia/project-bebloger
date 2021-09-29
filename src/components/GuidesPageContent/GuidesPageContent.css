@@ -58,7 +58,7 @@
 }
 .categ-like{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .like-button{

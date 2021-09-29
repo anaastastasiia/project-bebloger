@@ -26,8 +26,7 @@ const Guides = ({changeLike,likeButtonState}) => {
                     <div className="guides-articles">
                         {GuidesArray.map(({id,image,categories,description,photo,name,date}) => (
                             <GuidesContent
-                    key={id}
-
+                                key={id}
                                 id={id}
                                 image={image}
                                 categories={categories}

@@ -1,6 +1,5 @@
 import React from 'react'
 import './GuidesPageContent.css'
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
 
 const GuidesPageArticle = (props) => {
     return (
@@ -12,7 +11,6 @@ const GuidesPageArticle = (props) => {
                         <button className="title-categ">
                             {props.categories}
                         </button>
-                        <FavoriteBorderIcon className="like-button" />
                     </div>
                     <h2>{props.description}</h2>
                     <p>{props.text}</p>

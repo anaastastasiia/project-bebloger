@@ -19,9 +19,9 @@ const Main = ({changeLike, likeButtonState,}) => {
              changeLike={changeLike} likeButtonState={likeButtonState} />)} />
             <Route path="/" exact render={() => <Footer />} />
             <Route path="/about" component={AboutPage} />
-            <Route path="/adventures" component={AdventuresPage} />
-            <Route path="/places" component={PlacesPage} />
-            <Route path="/guides" component={GuidesPage} />
+            <Route path="/adventures" component={AdventuresPage}  />
+            <Route path="/places" component={PlacesPage}  />
+            <Route path="/guides" component={GuidesPage}  />
             <Route path="/likes" component={LikesPage} />
             <Route path="/joinus" component={JoinUs} />
         </>
