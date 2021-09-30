@@ -24,10 +24,10 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.guid-art-content button:hover{
+/* .guid-art-content button:hover{
     color: rgba(0,0,0,.8);
     cursor: pointer;
-}
+} */
 .guid-art-second h2{
     color: #504840;
     font-size: 30px;
@@ -58,6 +58,10 @@
     font-size: 15px;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     
+}
+.title-categ-guides a{
+    text-decoration: none;   
+    color: rgba(0,0,0,.6);
 }
 .guid-art-author {
     border-top-color: rgba(255, 14, 14, 0.1);

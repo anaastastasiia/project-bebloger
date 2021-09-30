@@ -2,6 +2,7 @@ import React from 'react'
 import './PlacesContent.css'
 import FavoriteIcon from '@material-ui/icons/Favorite'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
+import { Link } from 'react-router-dom'
 
 const PostsContent = ({id,image,categories,description,photo,name,date,isLiked = false,changeLike
 }) => {
@@ -18,7 +19,10 @@ const PostsContent = ({id,image,categories,description,photo,name,date,isLiked =
                             <img src={image} alt="" />
 
                             <button className="title-categ-pleces">
-                                {categories}
+                                <Link to="/places"  >
+                                     {categories}
+                                </Link>
+                                
                             </button>
                             <h2>{description}</h2>
                         </div>

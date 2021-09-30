@@ -143,3 +143,11 @@ display: flex;
     width: 20px;
     margin-top: 8px;
 }
+.read-article-btn a:hover {
+    color:#aab0a7;
+    cursor: pointer;
+}
+.read-article-btn a{
+    text-decoration: none;
+    color: black;
+}

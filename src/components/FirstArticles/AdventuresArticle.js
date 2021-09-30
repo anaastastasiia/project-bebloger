@@ -3,6 +3,7 @@ import './AdventStyles.css'
 // import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
 import FavoriteIcon from '@material-ui/icons/Favorite'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
+import { Link } from 'react-router-dom'
 
 const AdventureArticle = ({id,image,categories,description,text,photo,name,date,isLiked = false,changeLike
 }) => {
@@ -18,7 +19,9 @@ const AdventureArticle = ({id,image,categories,description,text,photo,name,date,
                     </button>
                             <img src={image} alt="" />
                             <button className="titlee-categories">
-                                {categories}
+                                 <Link to="/adventures" className="link-read" >
+                                     {categories}
+                                 </Link>
                             </button>
                             <h2>{description}</h2>
                             <p>{text}</p>

@@ -1,7 +1,7 @@
-.adv-art-content button:hover {
+/* .adv-art-content button:hover {
     color: rgba(255,255,255,.8);
     cursor: pointer;
-}
+} */
 .more-text button:hover {
     color: rgba(240, 238, 235, 0.62);
     cursor: pointer;
@@ -28,6 +28,10 @@
 
 .adventures-articles img {
     width: 100%;
+}
+.titlee-categories a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, .6);
 }
 .like-btn-adv{
     position: relative;
@@ -105,7 +109,6 @@
     display: flex;
     font-size: 15px;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
-
 }
 
 .articles-author span {

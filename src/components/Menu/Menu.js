@@ -33,11 +33,6 @@ const Menu = () => {
                         </Link>
                     </button>
                     <button>
-                        <Link to="/likes" className="link">
-                            Likes
-                        </Link>
-                    </button>
-                    <button>
                         <Link to="/joinus" className="link">
                             Join us
                         </Link>

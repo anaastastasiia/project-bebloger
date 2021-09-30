@@ -4,6 +4,7 @@ import Adventures from '../../components/FirstArticles/Adventures'
 import ThreePersonBlock from '../../components/ThreePersonBlock/ThreePersonBlock'
 import Places from '../../components/Places/Places'
 import Guides from '../../components/Guides/Guides'
+import { Link } from 'react-router-dom'
 
 const Articles = ({changeLike, likeButtonState}) => {
     return (
@@ -30,9 +31,10 @@ const Articles = ({changeLike, likeButtonState}) => {
                     <Adventures changeLike={changeLike} likeButtonState={likeButtonState}/>
                     <div className="more-btn">
                         <div className="more-text">
-                            <a href="https://themes.muffingroup.com/be/blogger3/">
+                            <Link to="/joinus" className="link-read" >
                                 Discover more
-                            </a>
+                            </Link>
+                            
                         </div>
                     </div>
                     <ThreePersonBlock />
@@ -57,7 +59,9 @@ const Articles = ({changeLike, likeButtonState}) => {
                                 elit
                             </h3>
                             <a href="https://themes.muffingroup.com/be/blogger3/">
-                                Join us today
+                                <Link to="/joinus"  >
+                                    Join us today
+                                </Link>
                             </a>
                         </div>
                     </div>

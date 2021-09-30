@@ -8,9 +8,9 @@ const AdventurePageArticle = (props) => {
                 <div className="block-with-img-zoom">
                     <img src={props.image} alt="" />
                     <div className="categ-like">
-                        <button className="title-categ">
+                        <div className="title-categ">
                             {props.categories}
-                        </button>
+                        </div>
                         
                     </div>
                     <h2>{props.description}</h2>

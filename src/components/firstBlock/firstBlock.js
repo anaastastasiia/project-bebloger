@@ -1,5 +1,7 @@
 import React from 'react'
 import './firstBlock.css'
+import { Link } from 'react-router-dom'
+
 
 const FirstBlock = () => {
     return (
@@ -21,7 +23,11 @@ const FirstBlock = () => {
                             </div>
                             
                             <div className="read-article-btn">
-                                <button>READ THE ARTICLE</button>
+                                <button>
+                                    <Link to="/about" className="link-read" >
+                                        READ THE ARTICLE
+                                    </Link>
+                                </button>
                             </div>
                         </div>
                         {/* <div className="read-article-btn">
