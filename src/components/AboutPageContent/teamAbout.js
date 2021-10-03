@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './teamAbout.css'
 
 const TeamAbout = (props) => {
@@ -12,10 +13,14 @@ const TeamAbout = (props) => {
                 <span>{props.cocial}</span>
                 <div className="social-media-about">
                     <button>
-                        <img src={props.facebook} alt="" id="social-img" />
+                        <Link to="/joinus"  >
+                            <img src={props.facebook} alt="" id="social-img" />
+                        </Link>
                     </button>
                     <button>
-                        <img src={props.twiter} alt="" id="social-img" />
+                        <Link to="/joinus"  >
+                            <img src={props.twiter} alt="" id="social-img" />
+                        </Link>
                     </button>
                 </div>
             </div>

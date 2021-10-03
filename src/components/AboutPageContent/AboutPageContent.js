@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from '../../container/Footer/Footer'
 import './AboutPageContent.css'
 import './teamAbout'
@@ -29,7 +30,11 @@ const AboutPageContent = () => {
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit, sed do eiusmod tempor incididunt ut labor
                         </p>
-                        <button>Discover more</button>
+                        <button>
+                            <Link to="/joinus" className="aboutLink" >
+                                Discover more
+                            </Link>
+                        </button>  
                     </div>
                     <div className="img-content">
                         <img
@@ -137,9 +142,9 @@ const AboutPageContent = () => {
                                     Lorem ipsum dolor sit amet tetur adipis
                                     icing elit
                                 </h3>
-                                <a href="https://themes.muffingroup.com/be/blogger3/">
+                                <Link to="/joinus"  >
                                     Join us today
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

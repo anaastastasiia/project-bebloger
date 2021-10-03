@@ -75,6 +75,10 @@
     color: rgb(214, 213, 213);
     cursor: pointer;
 }
+.aboutLink {
+    text-decoration: none;
+    color:white;
+}
 .img-content  {
     width:759.6px;
     height: 460px;
