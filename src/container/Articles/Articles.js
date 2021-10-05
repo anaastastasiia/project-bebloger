@@ -58,11 +58,10 @@ const Articles = ({changeLike, likeButtonState}) => {
                                 Lorem ipsum dolor sit amet tetur adipis icing
                                 elit
                             </h3>
-                            <a href="https://themes.muffingroup.com/be/blogger3/">
+                            
                                 <Link to="/joinus"  >
                                     Join us today
                                 </Link>
-                            </a>
                         </div>
                     </div>
                 </div>
