@@ -9,19 +9,18 @@ const Header = () => {
             <div className="header">
                 <div className="container">
                     <div className="row row-menu">
-                        <div className="col-md-4">
-                            <a
+                        <div className="col-md-4 col-xs-6">
+                            <div
                                 className="logo"
-                                href="https://themes.muffingroup.com/be/blogger3/"
                             >
                                 <img
                                     className="logo-img"
                                     src="https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-logo-retina.png"
                                     alt=""
                                 />
-                            </a>
+                            </div>
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-8 col-xs-6">
                             <div className="main-menu">
                                 <ul className="menu">
                                     <Menu />

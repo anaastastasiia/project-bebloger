@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+body{
+    width: 100%;
+}
 .container {
     width: 100%;
     margin-left: auto;
@@ -12,7 +14,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.col-md-4 {
+/* .col-md-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
 }
@@ -24,4 +26,4 @@
 .col-md-8 {
     flex: 0 0 66.66666%;
     max-width: 66.66666%;
-}
+} */

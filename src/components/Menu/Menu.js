@@ -7,32 +7,32 @@ const Menu = () => {
         <>
             <div className="main-menu">
                 <div className="menu">
-                    <button>
+                    <button className="menu-link">
                         <Link to="/" className="link">
                             Home
                         </Link>
                     </button>
-                    <button>
+                    <button className="menu-link">
                         <Link to="/about" className="link">
                             About
                         </Link>
                     </button>
-                    <button>
+                    <button className="menu-link">
                         <Link to="/adventures" className="link">
                             Adventures
                         </Link>
                     </button>
-                    <button>
+                    <button className="menu-link">
                         <Link to="/places" className="link">
                             Places
                         </Link>
                     </button>
-                    <button>
+                    <button className="menu-link">
                         <Link to="/guides" className="link">
                             Guides
                         </Link>
                     </button>
-                    <button>
+                    <button className="menu-link">
                         <Link to="/joinus" className="link">
                             Join us
                         </Link>

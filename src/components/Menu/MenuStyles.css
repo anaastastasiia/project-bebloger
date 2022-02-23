@@ -45,3 +45,7 @@
     color: #ac8a62;
     cursor: pointer;
 }
+.menu > button {
+    flex-wrap: wrap;
+}
+.menu-link{}
